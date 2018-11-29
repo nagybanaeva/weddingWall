@@ -1,0 +1,50 @@
+html, body{
+  background-image: url("img/1579255-hearts-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-family:  "Great Vibes", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+  color: palevioletred;
+}
+
+#eva{
+  transform: rotate(-15deg);
+}
+
+#tamas{
+  transform: rotate(15deg);
+}
+
+
+h2{
+  font-family:  "Great Vibes", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: rebeccapurple;
+}
+
+.container{
+  margin-top: 2rem;
+}
+
+
+img{
+  width: 100%;
+  border: 20px solid white;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px){
+  img, h1, h2{
+    width: 70%;
+    text-align: center;
+  }
+  h1, h2{
+    margin-top: 2rem;
+}
+}
